@@ -5,14 +5,7 @@ import java.io.IOException;
 
 public class Task1 {
 
-    public void run(BufferedReader reader) throws IOException {
+    public void run(BufferedReader reader) {
         System.out.println("Task1.run");
-        String text = reader.readLine();
-        char[] chars = text.toCharArray();
-        for (int i = 0; i < chars.length; i++) {
-            System.out.println("i = " + chars[i]);
-            System.out.println("chars = " + (int) chars[i]);
-        }
-        System.out.println("text = " + text);
     }
 }
