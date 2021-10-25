@@ -10,6 +10,7 @@
     <modules>
         <module>unit_2_base_operations</module>
         <module>hw_exam</module>
+        <module>unit_3_strings</module>
     </modules>
     <packaging>pom</packaging>
 
