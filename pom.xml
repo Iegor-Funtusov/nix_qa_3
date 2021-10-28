@@ -11,6 +11,7 @@
         <module>unit_2_base_operations</module>
         <module>hw_exam</module>
         <module>unit_3_strings</module>
+        <module>unit_4_intersection</module>
     </modules>
     <packaging>pom</packaging>
 
