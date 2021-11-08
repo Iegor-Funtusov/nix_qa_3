@@ -6,4 +6,9 @@ public class IfcClass1 implements Ifc1, Ifc2 {
     public void run() {
         System.out.println("IfcClass1.run");
     }
+
+    @Override
+    public void test() {
+        Ifc1.super.test();
+    }
 }

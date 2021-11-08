@@ -13,6 +13,8 @@
         <module>unit_3_strings</module>
         <module>unit_4_intersection</module>
         <module>unit_5_start_oop</module>
+        <module>mat_lib</module>
+        <module>mat_util_exam</module>
     </modules>
     <packaging>pom</packaging>
 

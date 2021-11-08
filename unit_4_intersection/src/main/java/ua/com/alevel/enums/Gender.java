@@ -2,8 +2,8 @@ package ua.com.alevel.enums;
 
 public enum Gender {
 
-    MALE("male", "мужчина"),
-    FEMALE("female", "женщина");
+    MALE("male", ""),
+    FEMALE("female", "");
 
     private final String enType;
     private final String ruType;
