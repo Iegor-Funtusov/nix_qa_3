@@ -15,6 +15,7 @@
         <module>unit_5_start_oop</module>
         <module>mat_lib</module>
         <module>mat_util_exam</module>
+        <module>unit_6_all_operations</module>
     </modules>
     <packaging>pom</packaging>
 
