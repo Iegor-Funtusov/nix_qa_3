@@ -1,5 +1,8 @@
 package ua.com.alevel.list;
 
+import ua.com.alevel.list.hw.CustomDynamicArray;
+import ua.com.alevel.list.hw.DynamicArray;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -10,7 +13,7 @@ public class ListTest {
     private final int size = 100_000;
     private final List<Integer> arrayList = new ArrayList<>(size);
     private final List<Integer> linkedList = new LinkedList<>();
-    private final List<Integer> list = new CustomList<>();
+    private final DynamicArray dynamicArray = new CustomDynamicArray();
 
     public void run() {
         create();
@@ -36,6 +39,10 @@ public class ListTest {
         }
         end = System.currentTimeMillis() - start;
         System.out.println("finish linkedList = " + end);
+
+        for (int i = 0; i < size; i++) {
+            dynamicArray.add(i);
+        }
     }
 
     private void read() {
