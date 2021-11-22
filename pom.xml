@@ -16,6 +16,7 @@
         <module>mat_lib</module>
         <module>mat_util_exam</module>
         <module>unit_6_all_operations</module>
+        <module>unit_7_collections</module>
     </modules>
     <packaging>pom</packaging>
 
