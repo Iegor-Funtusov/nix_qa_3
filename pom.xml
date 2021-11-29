@@ -17,6 +17,7 @@
         <module>mat_util_exam</module>
         <module>unit_6_all_operations</module>
         <module>unit_7_collections</module>
+        <module>unit_8_generics</module>
     </modules>
     <packaging>pom</packaging>
 
