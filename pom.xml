@@ -18,6 +18,7 @@
         <module>unit_6_all_operations</module>
         <module>unit_7_collections</module>
         <module>unit_8_generics</module>
+        <module>unit_9_exception_io</module>
     </modules>
     <packaging>pom</packaging>
 
