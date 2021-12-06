@@ -6,7 +6,6 @@ import java.sql.SQLException;
 public class ExceptionIOMain {
 
     public static void main(String[] args) {
-        System.out.println("ExceptionIOMain.main");
 
         // compile exception
         // runtime exception
@@ -21,21 +20,23 @@ public class ExceptionIOMain {
         StackOverflowError stackOverflowError;
         OutOfMemoryError outOfMemoryError;
         // Get current size of heap in bytes
-        long heapSize = Runtime.getRuntime().totalMemory();
-        System.out.println("heapSize = " + heapSize);
-        // Get maximum size of heap in bytes. The heap cannot grow beyond this size.// Any attempt will result in an OutOfMemoryException.
-        long heapMaxSize = Runtime.getRuntime().maxMemory();
-        System.out.println("heapMaxSize = " + heapMaxSize);
-        // Get amount of free memory within the heap in bytes. This size will increase // after garbage collection and decrease as new objects are created.
-        long heapFreeSize = Runtime.getRuntime().freeMemory();
-        System.out.println("heapFreeSize = " + heapFreeSize);
-        System.gc();
+//        long heapSize = Runtime.getRuntime().totalMemory();
+//        System.out.println("heapSize = " + heapSize);
+//        // Get maximum size of heap in bytes. The heap cannot grow beyond this size.// Any attempt will result in an OutOfMemoryException.
+//        long heapMaxSize = Runtime.getRuntime().maxMemory();
+//        System.out.println("heapMaxSize = " + heapMaxSize);
+//        // Get amount of free memory within the heap in bytes. This size will increase // after garbage collection and decrease as new objects are created.
+//        long heapFreeSize = Runtime.getRuntime().freeMemory();
+//        System.out.println("heapFreeSize = " + heapFreeSize);
+//        System.gc();
 
         // logic exception
 
 //        div(1,0);
 
-        new ExcTest().test1();
+//        new ExcTest().test1();
+//        new IOTest().test();
+        new ReflectionTest().test();
     }
 
     private static void div(int a, int b) {
